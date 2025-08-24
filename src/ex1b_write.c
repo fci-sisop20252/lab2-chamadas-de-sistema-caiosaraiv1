@@ -1,8 +1,8 @@
 /*
  * Exercício 1b - Observando write()
- * 
+ *
  * OBJETIVO: Entender como write() se comporta com strace
- * 
+ *
  * TAREFA: Este código está completo. Você só precisa:
  * 1. Compilar: gcc src/ex1b_write.c -o ex1b_write
  * 2. Executar: ./ex1b_write
@@ -22,7 +22,7 @@ int main() {
     char msg5[] = "\n=== Análise ===\n";
     char msg6[] = "Execute: strace -e write ./ex1b_write\n";
     char msg7[] = "Observe: Cada write() gera uma syscall\n";
-    
+
     // File descriptor 1 = stdout (saída padrão)
     write(1, msg1, strlen(msg1));
     write(1, msg2, strlen(msg2));
@@ -31,7 +31,7 @@ int main() {
     write(1, msg5, strlen(msg5));
     write(1, msg6, strlen(msg6));
     write(1, msg7, strlen(msg7));
-    
+
     return 0;
 }
 
