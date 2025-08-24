@@ -33,8 +33,8 @@ Acredito que a implementação A. Pois na B foi necessário alocar mais espaço 
 ## Exercício 2 - Leitura de Arquivo
 
 ### Resultados da execução:
-- File descriptor: _____
-- Bytes lidos: _____
+- File descriptor: __3__
+- Bytes lidos: __127__
 
 ### Comando strace:
 ```bash
