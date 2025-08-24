@@ -155,7 +155,7 @@ time cp dados/origem.txt dados/destino_cp.txt
 **Por que você acha que foi mais rápido?**
 
 ```
-Acredito que foi por causa de realizar poucas syscalls e porque o programa seja mais especifico do que o 'cp' que é algo mais genérico.
+Acredito que foi por conta de realizar poucas syscalls e porque o programa seja mais especifico do que o 'cp' que é algo mais genérico.
 ```
 
 ---
